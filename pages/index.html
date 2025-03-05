@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="../styles/index.css" />
   </head>
   <body>
-    <nav>
-      <img src="../images/guamFlag.png" alt="Guam flag" width="75" />
-      <h1>🌸 Hafa Adai Guam Fans 🤙</h1>
-      <strong><p>🌞82º</p></strong>
+    <nav class="navBar">
+      <ul>
+        <li><img src="../images/guamFlag.png" alt="Guam flag" width="75" /></li>
+        <li><h1>🌸🤙 Hafa Adai Guam Fans 🤙🌸</h1></li>
+        <li>
+          <strong><p>🌞82º</p></strong>
+        </li>
+      </ul>
     </nav>
     <div>
-      <p>
-        Welcome to Guam Fan! This is a fan site for the beautiful island of
+      <p class="intro">
+        Welcome to Guam Fans! This is a fan site for the beautiful island of
         Guam. Guam is a U.S. territory located in the western Pacific Ocean. It
         is known for its tropical beaches, Chamorro culture, and military bases.
         Whether you are a resident of Guam, a visitor, or just a fan of the
@@ -23,6 +27,7 @@
         enjoy your virtual trip to Guam!
       </p>
       <video
+        id="heroVideo"
         width="320"
         height="240"
         controls
@@ -35,27 +40,46 @@
         Your browser does not support the video tag
       </video>
     </div>
-    <div>
-      <h2>Click picture to see Guam's yummy food</h2>
-      <a href="../pages/food.html"
-        ><img src="../images/fiestaPlate.png" alt="Old Guam" width="300"
-      /></a>
-    </div>
-    <div>
-      <h2>Click picture to dive into Guam's activities</h2>
-      <a href="../pages/thingsToDo.html"
-        ><img src="../images/beach.png" alt="Old Guam" width="300"
-      /></a>
+    <div class="content">
+      <ul>
+        <li>
+          <h2>Click picture to see Guam's yummy food</h2>
+          <a href="../pages/food.html"
+            ><img src="../images/fiestaPlate.png" alt="Old Guam" width="300"
+          /></a>
+        </li>
+        <li>
+          <h2>Click picture to dive into Guam's activities</h2>
+          <a href="../pages/thingsToDo.html"
+            ><img src="../images/beach.png" alt="Old Guam" width="300"
+          /></a>
+        </li>
+      </ul>
     </div>
 
-    <footer>
-      <p>&copy; 2025 Geiselle Holt</p>
-      <p>
-        Follow us on
-        <a href="https://facebook.com"
-          ><img src="../images/facebookLogo.png" width="50"
-        /></a>
-      </p>
+    <footer class="navBar">
+      <ul>
+        <li>
+          <p>&copy; 2025 Geiselle Holt</p>
+        </li>
+        <li>
+          <a href="../pages/contact.html"> <button>Contact Us</button></a>
+        </li>
+        <li>
+          <a href="../pages/newsletter.html">
+            <button>Sign up for our Newsletter</button></a
+          >
+        </li>
+        <li>
+          Follow us on
+          <a href="https://facebook.com"
+            ><img src="../images/facebookLogo.png" width="50"
+          /></a>
+          <a href="https://instagram.com"
+            ><img src="../images/instaLogo.png" width="50"
+          /></a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
